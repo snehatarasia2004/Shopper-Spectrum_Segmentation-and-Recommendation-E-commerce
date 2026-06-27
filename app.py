@@ -9,7 +9,7 @@ import os
 
 # --- Load CSV from Google Drive ---
 st.info("📥 Loading retail data from Google Drive...")
-csv_url =https://drive.google.com/file/d/1rzRwxm_CJxcRzfoo9Ix37A2JTlMummY-/view?usp=drive_link
+csv_url =  "https://drive.google.com/uc?export=download&id=1NnX4aFg7DbCHJkK48zA5nUk3vc-vXhiI"
 
 try:
     response = requests.get(csv_url)
